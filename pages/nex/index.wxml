@@ -1,0 +1,17 @@
+<view class="page-body"> 
+    <!-- <view wx:for="{{nexs}}">
+      {{index}}. {{item.key}}进制
+      <input bindinput="{{item.value}}" class="weui-input"  placeholder="{{item.key}}进制"/> 
+    </view> -->
+
+
+    <view class='attrs' wx:for='nexsMap' wx:for-index='key'>
+      {{index}}. {{key}}进制
+      <input bindinput="item" class="weui-input"  placeholder="{{key}}进制"/> 
+    </view>
+
+    <button bindtap="bindViewAction" type="primary">进制转换</button>
+    {{log1}}
+
+    {{log}}
+</view>

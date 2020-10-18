@@ -1,0 +1,41 @@
+{
+  "pages":[
+
+    "pages/index/index"
+    , "pages/nex/index"
+    , "pages/button/index"
+    , "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#90A4AE",
+    "navigationBarTitleText": "Walker",
+    "navigationBarTextStyle":"black" 
+  }
+  , "style": "v2"
+  , "sitemapLocation": "sitemap.json"
+  , "debug": true
+  , "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+  , "tabBar": { 
+    "backgroundColor": "#90A4AE", 
+    "color": "#8a8a8a",
+    "selectedColor":"#fff",
+    "list": [
+        {        
+          "pagePath": "pages/index/index",
+          "text": "Home",
+          "iconPath":"images/doll.png", 
+          "selectedIconPath":"images/dollblack.png" 
+        },
+        {
+          "pagePath": "pages/logs/logs",
+          "text": "Log",
+          "iconPath":"images/contact.png",
+          "selectedIconPath":"images/contactblue.png"
+        }
+    ]
+  }
+}
